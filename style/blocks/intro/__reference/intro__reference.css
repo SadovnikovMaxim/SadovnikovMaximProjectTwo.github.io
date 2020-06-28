@@ -1,0 +1,16 @@
+.intro__reference {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+
+}
+
+@media screen and (max-width: 425px) {
+  .intro__reference {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

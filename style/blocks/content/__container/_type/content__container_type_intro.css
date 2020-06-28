@@ -1,0 +1,25 @@
+.content__container_type_intro {
+    margin: 80px auto 102px;
+    max-width: 984px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .content__container_type_intro {
+      max-width: 95%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content__container_type_intro {
+      max-width: 95%;
+      margin-bottom: 97px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .content__container_type_intro {
+      max-width: 95%;
+      margin-top: 65px;
+      margin-bottom: 65px;
+    }
+  }

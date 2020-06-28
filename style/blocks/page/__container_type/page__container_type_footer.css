@@ -1,0 +1,26 @@
+.page__container_type_footer {
+    max-width: 1184px;
+    margin: 0 auto 48px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .page__container_type_footer {
+      max-width: 90.7%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .page__container_type_footer {
+      max-width: 94%;
+      margin-bottom: 24px;
+      flex-direction: column;
+    }
+  }
+
+
+  @media screen and (max-width: 425px) {
+    .page__container_type_footer {
+      max-width: 75%;
+      margin-left: 16px;
+    }
+  }

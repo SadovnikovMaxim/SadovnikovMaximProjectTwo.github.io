@@ -1,0 +1,17 @@
+.comments__container-author {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    max-width: 382px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .comments__container-author {
+     order: 1;
+     line-height: 24px;
+    }
+  }

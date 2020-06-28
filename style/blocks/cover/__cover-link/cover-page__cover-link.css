@@ -1,0 +1,49 @@
+.cover-page__cover-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    position: relative;
+    min-height: 594px;
+    text-decoration: none;
+    z-index: 5;
+    background-image: url(../../../../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .cover-page__cover-link:hover::before {
+    content: '';
+    background-color: #000;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+
+ @media screen and (max-width: 1024px) {
+  .cover-page__cover-link {
+    min-height: 562px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover-page__cover-link {
+      min-height: 500px;
+    }
+  }
+
+  @media screen and (max-width: 507px) {
+    .cover-page__cover-link {
+      min-height: 367px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .cover-page__cover-link {
+      min-height: 272px;
+    }
+  }
+  

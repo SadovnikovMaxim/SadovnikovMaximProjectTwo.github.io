@@ -1,0 +1,21 @@
+.comments__container-item {
+    margin-right: 19px;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments__container-item:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container-item {
+   margin-bottom: 48px;
+   text-align: center;
+  }
+  .comments__container-item:last-child {
+    margin-bottom: 0;
+}
+}

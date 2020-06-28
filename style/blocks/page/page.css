@@ -1,0 +1,10 @@
+@import url(./__container_type/page__container_type_header.css);
+@import url(./__container_type/page__container_type_footer.css);
+.page {
+    background: #2A2C2F;
+    max-width: 1280px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    min-width: 320px;
+  }

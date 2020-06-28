@@ -1,0 +1,11 @@
+@import url(./__ul/footer__ul.css);
+@import url(./__nav-link/footer__nav-link.css);
+@import url(./__author/footer__author.css);
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+

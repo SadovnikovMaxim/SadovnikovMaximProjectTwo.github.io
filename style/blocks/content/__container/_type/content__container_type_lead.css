@@ -1,0 +1,28 @@
+.content__container_type_lead {
+    margin: 0 auto;
+    width: 985px;
+  }
+
+  @media screen and (max-width: 1280px){
+    .content__container_type_lead{
+      max-width: 77%;
+    }
+  }
+
+  @media screen and (max-width: 1024px){
+    .content__container_type_lead{
+      max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .content__container_type_lead{
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 425px){
+    .content__container_type_lead{
+      max-width: 100%;
+    }
+  }

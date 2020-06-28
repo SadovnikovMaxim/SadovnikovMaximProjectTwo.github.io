@@ -1,0 +1,12 @@
+.comments__container-image {
+    width: 97px;
+    height: 97px;
+    border-radius: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .comments__container-image {
+     order: 1;
+     align-self: center;
+    }
+  }
