@@ -3,7 +3,7 @@ https://sadovnikovmaxim.github.io/TravelRussia/
 
 Учебный проект посвященный адаптивной и отзывчивой верстке.
 
-HTML, CSS
+HTML, CSS, БЭМ
 
 ## Версия:
 v.0.0.1
